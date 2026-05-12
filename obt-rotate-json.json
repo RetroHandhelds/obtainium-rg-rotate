@@ -1,0 +1,466 @@
+{
+    "apps": [
+        {
+            "id": "487343354",
+            "url": "https://buildbot.libretro.com/stable",
+            "author": "buildbot.libretro.com",
+            "name": "RetroArch (AArch64)",
+            "installedVersion": null,
+            "latestVersion": "1.22.2",
+            "apkUrls": "[[\"72917211-RetroArch_aarch64.apk\",\"https://buildbot.libretro.com/stable/1.22.2/android/RetroArch_aarch64.apk\"]]",
+            "otherAssetUrls": "[]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"intermediateLink\":[{\"customLinkFilterRegex\":\"/stable/\\\\d+\\\\.\\\\d+\\\\.\\\\d+/\",\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false},{\"customLinkFilterRegex\":\"/stable/\\\\d+\\\\.\\\\d+\\\\.\\\\d+/android/\",\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false}],\"customLinkFilterRegex\":\"/stable/\\\\d+\\\\.\\\\d+\\\\.\\\\d+/android/RetroArch_aarch64.apk\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36\"}],\"defaultPseudoVersioningMethod\":\"APKLinkHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\\\\d+\\\\.\\\\d+\\\\.\\\\d+\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"RetroArch AArch64\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":true,\"skipUpdateNotifications\":true,\"about\":\"Released less frequently. Better stability. \",\"refreshBeforeDownload\":false,\"releaseDateAsVersion\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778622967023406,
+            "pinned": false,
+            "categories": [
+                "Emulators"
+            ],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": "HTML",
+            "allowIdChange": false
+        },
+        {
+            "id": "com.github.stenzek.duckstation",
+            "url": "https://duckstation-mirror.rmacias.workers.dev",
+            "author": "duckstation-mirror.rmacias.workers.dev",
+            "name": "DuckStation",
+            "installedVersion": null,
+            "latestVersion": "0.1-8969-g611bb8fb4",
+            "apkUrls": "[[\"417993915-duckstation-android.apk\",\"https://duckstation-mirror.rmacias.workers.dev/duckstation-android.apk\"]]",
+            "otherAssetUrls": "[]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"Version:.*?>([\\\\d][\\\\w.-]+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Duckstation \",\"appAuthor\":\"stenzek \",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation 1 emulator\",\"refreshBeforeDownload\":false,\"releaseDateAsVersion\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778622958764951,
+            "pinned": false,
+            "categories": [
+                "Emulators"
+            ],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": "HTML",
+            "allowIdChange": false
+        },
+        {
+            "id": "org.ppsspp.ppsspp",
+            "url": "https://www.ppsspp.org/download",
+            "author": "www.ppsspp.org",
+            "name": "PPSSPP",
+            "installedVersion": null,
+            "latestVersion": "1.20.3",
+            "apkUrls": "[[\"995929167-ppsspp.apk\",\"https://www.ppsspp.org/files/1_20_3/ppsspp.apk\"]]",
+            "otherAssetUrls": "[]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\/[0-9]+(?:_[0-9]+){1,2}\\\\/ppsspp\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36\"}],\"defaultPseudoVersioningMethod\":\"APKLinkHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\\\\/(?:(?:([0-9]+)_([0-9]+)\\\\/ppsspp\\\\.)|(?:([0-9]+)_([0-9]+)_([0-9]+)\\\\/ppsspp(\\\\.)))apk$\",\"matchGroupToUse\":\"$1$3.$2$4$6$5\",\"versionDetection\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"PPSSPP\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PPSSPP is an open source, fast and portable PSP emulator\",\"refreshBeforeDownload\":false,\"releaseDateAsVersion\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778622965690103,
+            "pinned": false,
+            "categories": [
+                "Emulators"
+            ],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": "HTML",
+            "allowIdChange": false
+        },
+        {
+            "id": "org.dolphinemu.mmjr",
+            "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI",
+            "author": "Medard22",
+            "name": "Dolphin-MMJR2-VBI",
+            "installedVersion": null,
+            "latestVersion": "U24.07.02-2407",
+            "apkUrls": "[[\"Dolphin.MMJR2-VBI-U24.07.02-2407.apk\",\"https://api.github.com/repos/Medard22/Dolphin-MMJR2-VBI/releases/assets/274594090\"]]",
+            "otherAssetUrls": "[[\"U24.07.02-2407.tar.gz\",\"https://api.github.com/repos/Medard22/Dolphin-MMJR2-VBI/tarball/U24.07.02-2407\"],[\"U24.07.02-2407.zip\",\"https://api.github.com/repos/Medard22/Dolphin-MMJR2-VBI/zipball/U24.07.02-2407\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"GameCube and Wii emulator (MMJR2 fork)\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"github-creds\":\"\",\"GHReqPrefix\":\"\"}",
+            "lastUpdateCheck": 1778622958041115,
+            "pinned": false,
+            "categories": [
+                "Emulators"
+            ],
+            "releaseDate": 1753001805000000,
+            "changeLog": "Notable changes from U24.03.22-21259\r\n\r\n- Code refactoring and minor fixes\r\n- Fixed a panic alert for Def Jam: Fight for New York and Fifa Street\r\n- Numerous small optimizations to JitARM64\r\n- Small optimizations to DSP HLE audio decoding\r\n- Fixed stuttering from JIT Cache clear - mostly notable in Shadow the Hedgehog\r\n- Set OSD message color to yellow in default AMOLED theme\r\n- Updated Vulkan Memory Allocator and Vulkan Headers\r\n- Updated and optimized app icons\r\n\r\nMissing features - these features from Dolphin Official are not implemented\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nThis codebase is based on the Official Dolphin dev build 2407-1 (Jul 2, 2024). For more information about what has changed check the PR history. \r\n\r\n**General information**\r\n- When I started this project, my only goal was to add the VBI Skip hack to MMJR2. At the time, I had little to no coding experience and knew nothing about Git, GitHub, or Android Studio. Looking back to 2023, I never imagined I’d come this far.\r\n- Fast forward almost a year and a half later—with over 1,100 pull requests—I’ve managed to update this codebase from Dolphin 5.0-18205 (December 2022) all the way to Dolphin 2407 (July 2024). Of course, all the credit goes to the Dolphin Team, since they did the real heavy lifting. My job has simply been figuring out how to make it all work in MMJR2.\r\n- I work on this fork in my free time, mostly for myself, but I’m genuinely happy that so many of you find it useful. The previous release has been downloaded over 150,000 times and that is honestly mind-blowing. \r\n- I’ll keep working to improve MMJR2 for as long as I’m able. Thank you all for your support! \r\n- **Android developers willing to help are welcome!**\r\n\r\n**Caution**\r\n- **Save states from older versions are, unfortunately, NOT compatible with this release. Be sure to make an in-game save before updating!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)\r\n",
+            "overrideSource": "GitHub",
+            "allowIdChange": false
+        },
+        {
+            "id": "io.wip.pico8",
+            "url": "https://github.com/Macs75/pico8-android",
+            "author": "Macs75",
+            "name": "Pico8 Android",
+            "installedVersion": null,
+            "latestVersion": "1.6.4",
+            "apkUrls": "[[\"pico8-frontend.apk\",\"https://api.github.com/repos/Macs75/pico8-android/releases/assets/414236513\"]]",
+            "otherAssetUrls": "[[\"1.6.4.tar.gz\",\"https://api.github.com/repos/Macs75/pico8-android/tarball/1.6.4\"],[\"1.6.4.zip\",\"https://api.github.com/repos/Macs75/pico8-android/zipball/1.6.4\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PICO-8 fantasy console frontend\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"github-creds\":\"\",\"GHReqPrefix\":\"\"}",
+            "lastUpdateCheck": 1778622963527941,
+            "pinned": false,
+            "categories": [
+                "Games/Ports"
+            ],
+            "releaseDate": 1778142195000000,
+            "changeLog": "# Release v1.6.4\r\n\r\nminor bugfix release\r\n\r\n## Fix force close of the app\r\nthis release focus to resolve bug #68 . Sometimes the app force close at startup due to an issue removing temporary files.\r\nPreviously the only solution was to uninstall and reinstall the application. This fix should not require this step anymore and correctly\r\nremove the temporary files.",
+            "overrideSource": "GitHub",
+            "allowIdChange": false
+        },
+        {
+            "id": "com.k2.consolelauncher",
+            "url": "https://github.com/likeich/console-launcher",
+            "author": "likeich",
+            "name": "Console Launcher",
+            "installedVersion": null,
+            "latestVersion": "v2.0.0-beta.7.8",
+            "apkUrls": "[[\"ConsoleLauncher-v2.0.0-beta.7.8.apk\",\"https://api.github.com/repos/likeich/console-launcher/releases/assets/394978431\"]]",
+            "otherAssetUrls": "[[\"v2.0.0-beta.7.8.tar.gz\",\"https://api.github.com/repos/likeich/console-launcher/tarball/v2.0.0-beta.7.8\"],[\"v2.0.0-beta.7.8.zip\",\"https://api.github.com/repos/likeich/console-launcher/zipball/v2.0.0-beta.7.8\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":true,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"github-creds\":\"\",\"GHReqPrefix\":\"\"}",
+            "lastUpdateCheck": 1778622955129912,
+            "pinned": false,
+            "categories": [
+                "Launchers"
+            ],
+            "releaseDate": 1776037601000000,
+            "changeLog": "## What's Changed\r\n* Fix dock centering on game info screen\r\n* Fix Discord presence foreground-service crashes",
+            "overrideSource": "GitHub",
+            "allowIdChange": false
+        },
+        {
+            "id": "com.magneticchen.daijishou",
+            "url": "https://github.com/TapiocaFox/Daijishou",
+            "author": "TapiocaFox",
+            "name": "Daijishou",
+            "installedVersion": null,
+            "latestVersion": "v1.5.0",
+            "apkUrls": "[[\"416.apk\",\"https://api.github.com/repos/TapiocaFox/Daijishou/releases/assets/341151320\"]]",
+            "otherAssetUrls": "[[\"v1.5.0.tar.gz\",\"https://api.github.com/repos/TapiocaFox/Daijishou/tarball/v1.5.0\"],[\"v1.5.0.zip\",\"https://api.github.com/repos/TapiocaFox/Daijishou/zipball/v1.5.0\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778613004249029,
+            "pinned": false,
+            "categories": [
+                "Launchers"
+            ],
+            "releaseDate": 1768515995000000,
+            "changeLog": "**⚠️  The APK aims for universal distribution.**\r\n\r\n# 1.5.0\r\n🫧 Add remove title from games (Settings > Appearance).\r\n🫧 Add square game box arts (Settings > Appearance).\r\n🫧 Add live wallpapers [GIF] (Settings > Appearance).\r\n🫧 Add double tap top/bottom bars to lock screen.\r\n🫧 Add \"Visual Novels\" Categories.\r\n\r\n🫧 Fix/Improve wiki scraper (wrong descriptions).\r\n🫧 Fix missing video button for games.\r\n🫧 Fix missing box arts when syncing.\r\n🫧 Fix RA breaking changes.\r\n\r\n1.5.0 changes were made by @official-wizard.",
+            "overrideSource": "GitHub",
+            "allowIdChange": false
+        },
+        {
+            "id": "oss.krtirtho.spotube",
+            "url": "https://github.com/KRTirtho/spotube",
+            "author": "KRTirtho",
+            "name": "spotube",
+            "installedVersion": null,
+            "latestVersion": "v5.1.1",
+            "apkUrls": "[[\"Spotube-android-all-arch.apk\",\"https://api.github.com/repos/KRTirtho/spotube/releases/assets/361459298\"]]",
+            "otherAssetUrls": "[[\"RELEASE.md5sum\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/RELEASE.md5sum\"],[\"RELEASE.sha256sum\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/RELEASE.sha256sum\"],[\"Spotube-iOS.ipa\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-iOS.ipa\"],[\"spotube-linux-5.1.1-aarch64.tar.xz\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/spotube-linux-5.1.1-aarch64.tar.xz\"],[\"spotube-linux-5.1.1-x86_64.tar.xz\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/spotube-linux-5.1.1-x86_64.tar.xz\"],[\"Spotube-linux-aarch64.AppImage\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-linux-aarch64.AppImage\"],[\"Spotube-linux-aarch64.deb\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-linux-aarch64.deb\"],[\"Spotube-linux-x86_64.AppImage\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-linux-x86_64.AppImage\"],[\"Spotube-linux-x86_64.deb\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-linux-x86_64.deb\"],[\"Spotube-linux-x86_64.rpm\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-linux-x86_64.rpm\"],[\"Spotube-macos-universal.dmg\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-macos-universal.dmg\"],[\"Spotube-macos-universal.pkg\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-macos-universal.pkg\"],[\"Spotube-windows-x86_64-setup.exe\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-windows-x86_64-setup.exe\"],[\"Spotube-windows-x86_64.nupkg\",\"https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-windows-x86_64.nupkg\"],[\"v5.1.1.tar.gz\",\"https://api.github.com/repos/KRTirtho/spotube/tarball/v5.1.1\"],[\"v5.1.1.zip\",\"https://api.github.com/repos/KRTirtho/spotube/zipball/v5.1.1\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778613065675179,
+            "pinned": false,
+            "categories": [
+                "Music"
+            ],
+            "releaseDate": 1771938909000000,
+            "changeLog": "## v5.1.1\r\n\r\n### Bug Fixes\r\n\r\n- Upgrade NewPipeExtractor to latest version fixing playback issue\r\n- Lyrics not working\r\n\r\n\r\n## What's Changed\r\n* chore: replace windows app icon by a higher resolution by @TobseF in https://github.com/KRTirtho/spotube/pull/2838\r\n\r\n## New Contributors\r\n* @TobseF made their first contribution in https://github.com/KRTirtho/spotube/pull/2838\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v5.1.0...v5.1.1",
+            "overrideSource": null,
+            "allowIdChange": true
+        },
+        {
+            "id": "xyz.aethersx2.android",
+            "url": "https://github.com/Trixarian/NetherSX2-classic",
+            "author": "Trixarian",
+            "name": "NetherSX2 Classic",
+            "installedVersion": null,
+            "latestVersion": "2.2n",
+            "apkUrls": "[[\"NetherSX2-v2.2n-3668.apk\",\"https://api.github.com/repos/Trixarian/NetherSX2-classic/releases/assets/332821315\"]]",
+            "otherAssetUrls": "[[\"2.2n.tar.gz\",\"https://api.github.com/repos/Trixarian/NetherSX2-classic/tarball/2.2n\"],[\"2.2n.zip\",\"https://api.github.com/repos/Trixarian/NetherSX2-classic/zipball/2.2n\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"v?(.+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"NetherSX2-Classic\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation 2 emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"github-creds\":\"\",\"GHReqPrefix\":\"\"}",
+            "lastUpdateCheck": 1778622962790797,
+            "pinned": false,
+            "categories": [
+                "Emulators"
+            ],
+            "releaseDate": 1766665334000000,
+            "changeLog": "Merry Christmas, Happy Holidays and a Happy New Year everyone!\r\n\r\nThis update adds experimental Online Multiplayer to NetherSX2 along with the usual updates!\r\nThanks to [IamLupo](https://github.com/IamLupo) for adding it to ARMSX2, and [zakilj3](https://www.youtube.com/user/zakilj3) for discovering the same settings work with NetherSX2!\r\n\r\n[VirusTotal Scan Report](https://www.virustotal.com/gui/file/8b502b31ce797d5a162bc6b9300b5f02351b0b6b290b8dc1390b8dfb826673ab)\r\n\r\n## How to use Online Multiplayer\r\n1. Go to your App Settings --> Settings and toggle on Enable DEV9 Ethernet\r\n2. Set API to Sockets, and Device to how you want to connect online with the default being WiFi. Set this to VPN if your phone uses a VPN, and to one of the two SIM DATA options if you want to use your Mobile Data Plan instead\r\n3. That should be enough to get you online using a guide like [this](https://youtu.be/dcOnZzzcbSc?si=WOf01r0Ln5ZVQkpf&t=278) by LogicalMacrochip\r\n\r\nYou can use the [Official List of PlayStation 2 Online Games (2024)](https://docs.google.com/spreadsheets/d/15pfhL36qmC-iKr8MNjNXNLwgacG4VOmkfvwVxV5vGzo/edit?gid=0#gid=0) to figure out what games work, get their DNAS bypass codes if needed and which private server you should be using\r\n\r\nFor more advanced options (or you want to use the second method from the guide by LogicalMacrochip), you can do the following:\r\n1. Set DNS1 Mode to Manual\r\n2. Under DNS1 select either  [PS2 Online](https://ps2online.com) (called Cristian in the Official list) or [PSRewired](https://psrewired.com)\r\nNote: This can also be changed on a Per Game Settings and more servers will be added soon\r\nTo turn it off just set DNS1 Mode to Auto and DNS1 to 0.0.0.0\r\n\r\n[zakilj3](https://www.youtube.com/user/zakilj3) created a more [comprehensive guide](https://www.youtube.com/watch?v=uZzEXvNXUUU) to make it easier for people\r\n\r\n## Changelog\r\n* Bumped version to v2.2n\r\n* Added Networking section to System Settings\r\n### GameDB (converted from [PCSX2](https://pcsx2.net))\r\n* All-Star Fighters - Fixed inverted or broken character textures\r\n* Battle Gear 3 - Fixed broken splitscreen mode\r\n* Blokus Club with Bumpy Trot - Fixed channel shuffles, menu graphics, motion blur and aligned effects\r\n* Bomberman Kart DX - Fixed specific level infinite load screen\r\n* Castlevania: Curse of Darkness - Fixed post-processing alignment\r\n* Cool Girl - Fixed post-processing alignment\r\n* Coraline - Fixed post-processing alignment\r\n* Cy Girls - Fixed post-processing alignment\r\n* Final Fantasy X-2 - Fixed broken FMVs\r\n* George of the Jungle - Fixed post-processing alignment\r\n* George of the Jungle and the Search for the Secret - Fixed post-processing alignment\r\n* Guitar Hero: Greatest Hits - Fixed broken rainbow rendering, edge garbage, shadow definition and aligns post-processing\r\n* Harley-Davidson: Race to the Rally - Fixed post-processing alignment\r\n* Heatseeker - Fixed misalignment issues\r\n* Iris no Atelier: Eternal Mana - Fixed horizontal lines in FMV and character portraits when upscaling\r\n* Killzone - Fixed internal FPS detection\r\n* Next Generation Tennis - Fixed broken pause menu graphics\r\n* Ore no Shita de Agake - Fixed incorrect rendering and some missing text\r\n* PachiPara 13 & 14 - Fixed channel shuffles, menu graphics, motion blur and aligned effects\r\n* Raw Danger - Fixed menu graphics and channel shuffles\r\n* Red Ninja: End of Honor - Fixed post-processing alignment\r\n* Steambot Chronicles - Fixed menu graphics and channel shuffles\r\n* TimeSplitters: Future Perfect - Aligned bloom of distant objects\r\n* US OPEN 2002: A USTA EVENT - Fixed broken pause menu graphics\r\n### ControllerDB (from [SDL_GameControllerDB](https://github.com/mdqinc/SDL_GameControllerDB))\r\n* 8BitDo Pro 3\r\n* 8BitDo Ultimate 2C\r\n* icedragon.io STAC Dance Pad\r\n* Logitech Cordless RumblePad\r\n* PlayStation VR2 Sense Controllers\r\n* Ultimate Atari Fight Stick\r\n* XinMo Dual Arcade\r\n* ZhiXu GuliKit D\r\n### No interlacing and Widescreen Patches (Thanks [Saramagrean](https://github.com/Saramagrean/NetherSX2-cheats)!)\r\n#### No Interlacing\r\n* Grand Theft Auto: San Andreas\r\n* Hot Shots Golf 3\r\n* Mystic Nights\r\n* Shadow Hearts\r\n* Tales of Destiny: Director's Cut\r\n#### Widescreen\r\n* Grand Theft Auto: San Andreas\r\n* Jackie Chan Adventures\r\n* Metal Gear Solid 2 - Substance\r\n* Mystic Nights\r\n* Pro Evolution Soccer 2014\r\n* The Great Escape\r\n* Tales Of The Abyss",
+            "overrideSource": "GitHub",
+            "allowIdChange": false
+        },
+        {
+            "id": "com.seleuco.mame4d2024",
+            "url": "https://github.com/seleuco/MAME4droid-Current",
+            "author": "seleuco",
+            "name": "MAME4droid-Current",
+            "installedVersion": null,
+            "latestVersion": "v.135",
+            "apkUrls": "[[\"MAME4droid.2026-1.35.9-release.apk\",\"https://api.github.com/repos/seleuco/MAME4droid-Current/releases/assets/412110723\"]]",
+            "otherAssetUrls": "[[\"v.135.tar.gz\",\"https://api.github.com/repos/seleuco/MAME4droid-Current/tarball/v.135\"],[\"v.135.zip\",\"https://api.github.com/repos/seleuco/MAME4droid-Current/zipball/v.135\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778614321876498,
+            "pinned": false,
+            "categories": [
+                "Emulators"
+            ],
+            "releaseDate": 1777033502000000,
+            "changeLog": "Added a new  GL MAME Native Video Renderer with significant improvements:\r\n- Vector Games: Greatly improved rendering quality for a sharper and more authentic look.\r\n- Shaders:  Shaders are now applied only to the game screen, keeping the MAME UI/OSD clean and untouched.\r\n- Performance: Optimized pipeline that is much faster when using high-resolution artworks and bezels.\r\n",
+            "overrideSource": null,
+            "allowIdChange": false
+        },
+        {
+            "id": "com.mixplorer.beta",
+            "url": "https://mixplorer.com/beta/",
+            "author": "mixplorer.com",
+            "name": "MiXplorer (Beta)",
+            "installedVersion": null,
+            "latestVersion": "6.70.3",
+            "apkUrls": "[[\"710462076-MiXplorer_v6.70.3-BETA_B26022732-arm64.apk\",\"https://mixplorer.com/beta/MiXplorer_v6.70.3-BETA_B26022732-arm64.apk\"]]",
+            "otherAssetUrls": "[]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36\"}],\"defaultPseudoVersioningMethod\":\"APKLinkHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"[0-9]+\\\\.[0-9]+\\\\.[0-9]+\",\"matchGroupToUse\":\"\",\"versionDetection\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"arm64\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"MiXplorer (Beta)\",\"appAuthor\":\"mixplorer.com\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"A file manager app for Android devices, offering advanced features such as root access, cloud storage integration, and customization options.\",\"refreshBeforeDownload\":false,\"releaseDateAsVersion\":false,\"supportFixedAPKURL\":false}",
+            "lastUpdateCheck": 1778622962298014,
+            "pinned": false,
+            "categories": [
+                "Utilities"
+            ],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": "HTML",
+            "allowIdChange": false
+        },
+        {
+            "id": "org.dolphinemu.dolphinemu",
+            "url": "https://dolphin-emu.org/download/?ref=btn",
+            "author": "dolphin-emu.org",
+            "name": "Dolphin Emulator",
+            "installedVersion": null,
+            "latestVersion": "2603a",
+            "apkUrls": "[[\"330629461-dolphin-2603a.apk\",\"https://dl.dolphin-emu.org/releases/2603a/dolphin-2603a.apk\"]]",
+            "otherAssetUrls": "[]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"https:\\\\/\\\\/dl.dolphin-emu.org\\\\/releases.+dolphin.+.apk\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":true,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"/releases/.+/dolphin-(.+).apk\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Dolphin Emulator\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"GameCube and Wii emulator\",\"refreshBeforeDownload\":false,\"releaseDateAsVersion\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778622957170573,
+            "pinned": false,
+            "categories": [
+                "Emulators"
+            ],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": "HTML",
+            "allowIdChange": false
+        },
+        {
+            "id": "org.emunix.unipatcher",
+            "url": "https://github.com/btimofeev/UniPatcher",
+            "author": "btimofeev",
+            "name": "UniPatcher",
+            "installedVersion": null,
+            "latestVersion": "v0.17.3",
+            "apkUrls": "[[\"UniPatcher-0.17.3.apk\",\"https://api.github.com/repos/btimofeev/UniPatcher/releases/assets/206702244\"]]",
+            "otherAssetUrls": "[[\"v0.17.3.tar.gz\",\"https://api.github.com/repos/btimofeev/UniPatcher/tarball/v0.17.3\"],[\"v0.17.3.zip\",\"https://api.github.com/repos/btimofeev/UniPatcher/zipball/v0.17.3\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"UniPatcher\",\"appAuthor\":\"btimofeev\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"An app for patching ROMs or game files, commonly used in the context of retro gaming and emulation.\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"dontSortReleasesList\":false}",
+            "lastUpdateCheck": 1778622969980823,
+            "pinned": false,
+            "categories": [
+                "Utilities"
+            ],
+            "releaseDate": 1731664148000000,
+            "changeLog": "- Arabic translation (thanks to Fayçal Boukamel)\r\n- Esperanto translation (thanks to Jakub Fabijan)\r\n- Indonesian translation (thanks to Tsaqib Fadhlurrahman Soka, Lim Jia Ming, Reza Almanda)\r\n- Kurdish (Central) translation (thanks to دیاری ئەرسەلان جەبار)\r\n- Lithuanian translation (thanks to Gediminas Murauskas)\r\n- Malay translation (thanks to Muhammad Ammar Bin Rozi)\r\n- Vietnamese translation (thanks to Haibara Ai)\r\n- Many other translations updated (thanks to everyone involved)",
+            "overrideSource": null,
+            "allowIdChange": false
+        },
+        {
+            "id": "me.lecaro.breakout",
+            "url": "https://archive.lecaro.me/public-files/b71/",
+            "author": "archive.lecaro.me",
+            "name": "Breakout 71",
+            "installedVersion": null,
+            "latestVersion": "746033652",
+            "apkUrls": "[[\"419067683-b71-29642086.apk\",\"https://archive.lecaro.me/public-files/b71/29642086/b71-29642086.apk\"]]",
+            "otherAssetUrls": "[]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"intermediateLink\":[{\"customLinkFilterRegex\":\"\\\\d\\\\d\\\\d\\\\d\\\\d\\\\d\\\\d\\\\d/\",\"autoLinkFilterByArch\":false,\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false}],\"customLinkFilterRegex\":\"\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Breakout 71\",\"appAuthor\":\"Renan LE CARO\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"An open source game about breaking bricks, catching coins and picking upgrades.\",\"refreshBeforeDownload\":false}",
+            "lastUpdateCheck": 1778622952171020,
+            "pinned": false,
+            "categories": [
+                "Games/Ports"
+            ],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": null,
+            "allowIdChange": false
+        },
+        {
+            "id": "dev.cannoli.scorza",
+            "url": "https://github.com/CannoliHQ/cannoli",
+            "author": "CannoliHQ",
+            "name": "cannoli",
+            "installedVersion": null,
+            "latestVersion": "v1.5.3",
+            "apkUrls": "[[\"cannoli-1.5.3-62b862a.apk\",\"https://api.github.com/repos/CannoliHQ/cannoli/releases/assets/405609016\"]]",
+            "otherAssetUrls": "[[\"v1.5.3.tar.gz\",\"https://api.github.com/repos/CannoliHQ/cannoli/tarball/v1.5.3\"],[\"v1.5.3.zip\",\"https://api.github.com/repos/CannoliHQ/cannoli/zipball/v1.5.3\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778612778821200,
+            "pinned": false,
+            "categories": [
+                "Launchers"
+            ],
+            "releaseDate": 1777164018000000,
+            "changeLog": "https://cannoli.dev/documentation/changelog/",
+            "overrideSource": null,
+            "allowIdChange": false
+        },
+        {
+            "id": "org.mozilla.firefox",
+            "url": "https://download.cdn.mozilla.net/pub/fenix/releases/",
+            "author": "download.cdn.mozilla.net",
+            "name": "Firefox",
+            "installedVersion": null,
+            "latestVersion": "150.0.3",
+            "apkUrls": "[[\"161362557-fenix-150.0.3.multi.android-arm64-v8a.apk\",\"https://download.cdn.mozilla.net/pub/fenix/releases/150.0.3/android/fenix-150.0.3-android-arm64-v8a/fenix-150.0.3.multi.android-arm64-v8a.apk\"]]",
+            "otherAssetUrls": "[]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"intermediateLink\":[{\"customLinkFilterRegex\":\"(?:(\\\\d+)\\\\.)?(?:(\\\\d+)\\\\.)?(?:(\\\\d+)\\\\.\\\\d+)+/$\",\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":true},{\"customLinkFilterRegex\":\"android/$\",\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false},{\"customLinkFilterRegex\":\"fenix-(?:(\\\\d+)\\\\.)?(?:(\\\\d+)\\\\.)?(?:(\\\\d+)\\\\.\\\\d+)+-android-arm64-v8a/$\",\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false}],\"customLinkFilterRegex\":\"\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36\"}],\"defaultPseudoVersioningMethod\":\"APKLinkHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"(?:(\\\\d+)\\\\.)?(?:(\\\\d+)\\\\.)?(?:(\\\\d+)\\\\.\\\\d+)\",\"matchGroupToUse\":\"\",\"versionDetection\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Firefox\",\"appAuthor\":\"Mozilla\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Firefox is a free web browser that protects your online privacy and blocks ad trackers by default.\",\"refreshBeforeDownload\":false,\"supportFixedAPKURL\":false}",
+            "lastUpdateCheck": 1778622960920438,
+            "pinned": false,
+            "categories": [
+                "Utilities"
+            ],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": null,
+            "allowIdChange": false
+        },
+        {
+            "id": "com.github.catfriend1.syncthingfork",
+            "url": "https://github.com/researchxxl/syncthing-android",
+            "author": "researchxxl",
+            "name": "Syncthing-Fork",
+            "installedVersion": null,
+            "latestVersion": "v2.0.16.0",
+            "apkUrls": "[[\"com.github.catfriend1.syncthingfork_release_v2.0.16.0_arm64-v8a.apk\",\"https://api.github.com/repos/researchxxl/syncthing-android/releases/assets/391542333\"]]",
+            "otherAssetUrls": "[[\"com.github.catfriend1.syncthingfork_release_v2.0.16.0.apk\",\"https://api.github.com/repos/researchxxl/syncthing-android/releases/assets/391542350\"],[\"com.github.catfriend1.syncthingfork_release_v2.0.16.0_armeabi-v7a.apk\",\"https://api.github.com/repos/researchxxl/syncthing-android/releases/assets/391542324\"],[\"com.github.catfriend1.syncthingfork_release_v2.0.16.0_x86.apk\",\"https://api.github.com/repos/researchxxl/syncthing-android/releases/assets/391542313\"],[\"com.github.catfriend1.syncthingfork_release_v2.0.16.0_x86_64.apk\",\"https://api.github.com/repos/researchxxl/syncthing-android/releases/assets/391542299\"],[\"v2.0.16.0.tar.gz\",\"https://api.github.com/repos/researchxxl/syncthing-android/tarball/v2.0.16.0\"],[\"v2.0.16.0.zip\",\"https://api.github.com/repos/researchxxl/syncthing-android/zipball/v2.0.16.0\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":true,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"syncthingfork_release.*\\\\.apk$\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Continuous file synchronization\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"github-creds\":\"\",\"GHReqPrefix\":\"\"}",
+            "lastUpdateCheck": 1778622968827403,
+            "pinned": false,
+            "categories": [
+                "Utilities"
+            ],
+            "releaseDate": 1775649926000000,
+            "changeLog": "<!-- Release notes generated using configuration in .github/release.yml at v2.0.16.0 -->\r\n\r\n## What's Changed\r\n### Fixes\r\n* fix(RunConditionMonitor): fix needing restart after changing sleep interval by @dbhavsar76 in https://github.com/researchxxl/syncthing-android/pull/177\r\n* fix(model/Options): announceLanAddresses > announceLANAddresses by @Catfriend1 in https://github.com/researchxxl/syncthing-android/pull/188\r\n* fix(UI): Disable EdgeToEdge partially (fixes #184) by @Catfriend1 in https://github.com/researchxxl/syncthing-android/pull/192\r\n### Features\r\n* chore(notice): Add Keep Android Open Notice by @Catfriend1 in https://github.com/researchxxl/syncthing-android/pull/185\r\n### Other\r\n* Bump Syncthing submodule to v2.0.16\r\n* chore(MainActivity): Remove \"Important News\" snackbar notification by @Catfriend1 in https://github.com/researchxxl/syncthing-android/pull/187\r\n* chore(scripts): Read EMULATOR_NAME from ENV by @Catfriend1 in https://github.com/researchxxl/syncthing-android/pull/191\r\n* chore(gitignore): Ignore gradle/gradle-daemon-jvm.properties by @Catfriend1 in https://github.com/researchxxl/syncthing-android/pull/190\r\n* chore(scripts): Fix syncthing.log path by @Catfriend1 in https://github.com/researchxxl/syncthing-android/pull/193\r\n* chore(scripts): Grant permissions to skip welcome slides after reinstall by @Catfriend1 in https://github.com/researchxxl/syncthing-android/pull/194\r\n\r\n\r\n**Full Changelog**: https://github.com/researchxxl/syncthing-android/compare/v2.0.15.0...v2.0.16.0",
+            "overrideSource": "GitHub",
+            "allowIdChange": true
+        },
+        {
+            "id": "come.nanodata.armsx2",
+            "url": "https://github.com/ARMSX2/ARMSX2",
+            "author": "ARMSX2",
+            "name": "ARMSX2",
+            "installedVersion": null,
+            "latestVersion": "1.0.8",
+            "apkUrls": "[[\"ARMSX2_22_202605011624-unrestricted-release.apk\",\"https://api.github.com/repos/ARMSX2/ARMSX2/releases/assets/409976898\"]]",
+            "otherAssetUrls": "[[\"1.0.8.tar.gz\",\"https://api.github.com/repos/ARMSX2/ARMSX2/tarball/1.0.8\"],[\"1.0.8.zip\",\"https://api.github.com/repos/ARMSX2/ARMSX2/zipball/1.0.8\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"v?(.+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation 2 emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"github-creds\":\"\",\"GHReqPrefix\":\"\"}",
+            "lastUpdateCheck": 1778622949841790,
+            "pinned": false,
+            "categories": [
+                "Emulators"
+            ],
+            "releaseDate": 1777570799000000,
+            "changeLog": "### ARMSX2 1.0.8 Stable Changelog\r\n\r\nARMSX2 1.0.8 is now available as the latest stable release. This update brings major compatibility, graphics, performance, and usability improvements, with the biggest focus being vastly improved Mali GPU support from all the nighties since 1.0.6.\r\n\r\n**Major Mali GPU Improvements**\r\n\r\nMali support has been significantly improved in ARMSX2 1.0.8. Mali users no longer need to rely on a separate Mali-specific build to benefit from recent graphics fixes and compatibility improvements. These fixes are now included directly in the main ARMSX2 build.\r\n\r\nThis update should improve the experience on Mali devices by reducing graphics issues, improving OpenGL behavior, and making more games playable or stable on affected hardware.\r\n\r\nFor testing on some Mali devices, users may need to set Blending to Maximum and disable Show GPU on Stats to avoid a black screen. This was tested on a Redmi 9 Prime with a Mali G52 MC2/MP2 GPU.\r\n\r\nPlease let us know whether these changes improve your experience on Mali devices. You can join our discord to connect with us! [https://discord.gg/KwAChKDctz](url)\r\n\r\n**OpenGL Renderer Improvements**\r\n\r\nThe GL renderer has received major improvements, especially for devices affected by rendering bugs. These changes should improve both performance and compatibility across supported Android devices, with Mali devices seeing some of the most important benefits.\r\n\r\n**HostFS Support**\r\n\r\nThis latest update also includes HostFS support, allowing supported homebrew and development workflows to access files from the host device more easily.\r\n\r\n**VU1 Emulation Improvements**\r\n\r\nVU1 emulation has also been improved. Games such as the GTA series should now play as expected, and other games affected by similar VU1-related issues may also be fixed.\r\n\r\n**New Features**\r\n\r\n- Added GPU Profile Override setting.\r\n- Added support for disc swapping.\r\n- Added FPS limit / framerate control.\r\n- Added new internal resolution scale options: 0.25x, 0.5x, and 0.75x.\r\n- Added a new on-screen display / OSD.\r\n- Added support for creating memory cards from 8 MB to 64 MB.\r\n- Added support for folder memory cards.\r\n- Added a new option to disable unsafe OSD warnings.\r\n- Added CHD cover support.\r\n- Improved PNACH cheat importing so imported files are automatically renamed to the game’s serial CRC.\r\n- Added automatic // handling when importing PNACH files.\r\n- Fixed PNACH Android data location behavior, allowing cheats to be saved where the user wants.\r\n- Fixed Fast Boot.\r\n- Fixed Instant VU being disabled while MTVU is enabled.\r\n- Fixed the Trilinear OSD bug.\r\n- Fixed a fullscreen UI bug.\r\n- Fixed a memory card section issue in the sw600dp layout.\r\n- Included the latest fullscreen UI fix in the stable release.\r\n- Boot Logo Update\r\n\r\nARMSX2 now includes an updated boot logo with sound, created by @Vivimagic and audio done by @jpolo1224. \r\n\r\n**Credits**\r\n\r\nHuge thanks to @DIB1998 for the major Mali, OpenGL, OSD, resolution scale, memory card, disc swapping, FPS limit, and graphics-related improvements.\r\n\r\nThanks also to @momo-AUX1 for extensive bug fixing, new settings, and helping bring the Mali fixes into the main ARMSX2 build.\r\n\r\nThank you to @Vivimagic for the new ARMSX2 boot logo, and credits to (NASA/CXC/SAO/K.Arcand, SYSTEM Sounds (M. Russo, A. Santaguida) for the sound used as well. The 1987A Supernova Sonification just screams PS2. Also, to everyone testing nightly builds and reporting issues, as well as the rest of the ARMSX2 team for their continued contributions.",
+            "overrideSource": "GitHub",
+            "allowIdChange": true
+        },
+        {
+            "id": "dev.imranr.obtainium",
+            "url": "https://github.com/ImranR98/Obtainium",
+            "author": "ImranR98",
+            "name": "Obtainium",
+            "installedVersion": "v1.3.4",
+            "latestVersion": "v1.4.3",
+            "apkUrls": "[[\"app-arm64-v8a-release.apk\",\"https://api.github.com/repos/ImranR98/Obtainium/releases/assets/397771082\"]]",
+            "otherAssetUrls": "[[\"app-arm64-v8a-fdroid-release.apk\",\"https://api.github.com/repos/ImranR98/Obtainium/releases/assets/397771054\"],[\"app-arm64-v8a-fdroid-release.apk.idsig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-arm64-v8a-fdroid-release.apk.idsig\"],[\"app-arm64-v8a-fdroid-release.apk.sha256\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-arm64-v8a-fdroid-release.apk.sha256\"],[\"app-arm64-v8a-fdroid-release.apk.sha256.sig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-arm64-v8a-fdroid-release.apk.sha256.sig\"],[\"app-arm64-v8a-release.apk.idsig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-arm64-v8a-release.apk.idsig\"],[\"app-arm64-v8a-release.apk.sha256\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-arm64-v8a-release.apk.sha256\"],[\"app-arm64-v8a-release.apk.sha256.sig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-arm64-v8a-release.apk.sha256.sig\"],[\"app-armeabi-v7a-fdroid-release.apk\",\"https://api.github.com/repos/ImranR98/Obtainium/releases/assets/397771116\"],[\"app-armeabi-v7a-fdroid-release.apk.idsig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-armeabi-v7a-fdroid-release.apk.idsig\"],[\"app-armeabi-v7a-fdroid-release.apk.sha256\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-armeabi-v7a-fdroid-release.apk.sha256\"],[\"app-armeabi-v7a-fdroid-release.apk.sha256.sig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-armeabi-v7a-fdroid-release.apk.sha256.sig\"],[\"app-armeabi-v7a-release.apk\",\"https://api.github.com/repos/ImranR98/Obtainium/releases/assets/397771137\"],[\"app-armeabi-v7a-release.apk.idsig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-armeabi-v7a-release.apk.idsig\"],[\"app-armeabi-v7a-release.apk.sha256\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-armeabi-v7a-release.apk.sha256\"],[\"app-armeabi-v7a-release.apk.sha256.sig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-armeabi-v7a-release.apk.sha256.sig\"],[\"app-fdroid-release.apk\",\"https://api.github.com/repos/ImranR98/Obtainium/releases/assets/397771153\"],[\"app-fdroid-release.apk.idsig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-fdroid-release.apk.idsig\"],[\"app-fdroid-release.apk.sha256\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-fdroid-release.apk.sha256\"],[\"app-fdroid-release.apk.sha256.sig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-fdroid-release.apk.sha256.sig\"],[\"app-release.apk\",\"https://api.github.com/repos/ImranR98/Obtainium/releases/assets/397771179\"],[\"app-release.apk.idsig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-release.apk.idsig\"],[\"app-release.apk.sha256\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-release.apk.sha256\"],[\"app-release.apk.sha256.sig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-release.apk.sha256.sig\"],[\"app-x86_64-fdroid-release.apk\",\"https://api.github.com/repos/ImranR98/Obtainium/releases/assets/397771210\"],[\"app-x86_64-fdroid-release.apk.idsig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-x86_64-fdroid-release.apk.idsig\"],[\"app-x86_64-fdroid-release.apk.sha256\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-x86_64-fdroid-release.apk.sha256\"],[\"app-x86_64-fdroid-release.apk.sha256.sig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-x86_64-fdroid-release.apk.sha256.sig\"],[\"app-x86_64-release.apk\",\"https://api.github.com/repos/ImranR98/Obtainium/releases/assets/397771236\"],[\"app-x86_64-release.apk.idsig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-x86_64-release.apk.idsig\"],[\"app-x86_64-release.apk.sha256\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-x86_64-release.apk.sha256\"],[\"app-x86_64-release.apk.sha256.sig\",\"https://github.com/ImranR98/Obtainium/releases/download/v1.4.3/app-x86_64-release.apk.sha256.sig\"],[\"v1.4.3.tar.gz\",\"https://api.github.com/repos/ImranR98/Obtainium/tarball/v1.4.3\"],[\"v1.4.3.zip\",\"https://api.github.com/repos/ImranR98/Obtainium/zipball/v1.4.3\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"fdroid\",\"invertAPKFilter\":true,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778612696971035,
+            "pinned": false,
+            "categories": [
+                "Utilities"
+            ],
+            "releaseDate": 1776343289000000,
+            "changeLog": "## What's Changed\r\n* Update ru.json by @solokot in https://github.com/ImranR98/Obtainium/pull/2885\r\n* Update ja.json by @bluefly000 in https://github.com/ImranR98/Obtainium/pull/2882\r\n* Translation: Update hu.json by @summoner001 in https://github.com/ImranR98/Obtainium/pull/2881\r\n* Update fr.json by @Kevinr99089 in https://github.com/ImranR98/Obtainium/pull/2880\r\n* Enable asynchronous memory tagging for releases by @hansjansen2 in https://github.com/ImranR98/Obtainium/pull/2883\r\n* Fix type error when adding via search (#2878) + disable rename check by default by @ImranR98 in https://github.com/ImranR98/Obtainium/pull/2887\r\n\r\n## New Contributors\r\n* @hansjansen2 made their first contribution in https://github.com/ImranR98/Obtainium/pull/2883\r\n\r\n**Full Changelog**: https://github.com/ImranR98/Obtainium/compare/v1.4.2...v1.4.3",
+            "overrideSource": null,
+            "allowIdChange": false
+        },
+        {
+            "id": "com.theveloper.pixelplay",
+            "url": "https://github.com/theovilardo/PixelPlayer",
+            "author": "theovilardo",
+            "name": "PixelPlayer",
+            "installedVersion": null,
+            "latestVersion": "0.6.0-beta",
+            "apkUrls": "[[\"app-arm64-v8a-release.apk\",\"https://api.github.com/repos/theovilardo/PixelPlayer/releases/assets/370590192\"]]",
+            "otherAssetUrls": "[[\"app-armeabi-v7a-release.apk\",\"https://api.github.com/repos/theovilardo/PixelPlayer/releases/assets/370590336\"],[\"wear-release.apk\",\"https://api.github.com/repos/theovilardo/PixelPlayer/releases/assets/370591767\"],[\"0.6.0-beta.tar.gz\",\"https://api.github.com/repos/theovilardo/PixelPlayer/tarball/0.6.0-beta\"],[\"0.6.0-beta.zip\",\"https://api.github.com/repos/theovilardo/PixelPlayer/zipball/0.6.0-beta\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778613096481733,
+            "pinned": false,
+            "categories": [
+                "Music"
+            ],
+            "releaseDate": 1773118856000000,
+            "changeLog": "## What's Changed\r\n* improve debug devex by @ThatOneCalculator in https://github.com/theovilardo/PixelPlayer/pull/807\r\n* fix: set icon in media control notification by @ThatOneCalculator in https://github.com/theovilardo/PixelPlayer/pull/806\r\n* Add manual lyrics search flow when lyrics are not found by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/809\r\n* fix: move hardcoded strings for errors to string resources by @ThatOneCalculator in https://github.com/theovilardo/PixelPlayer/pull/840\r\n* Added persistent shuffle feature by @ryan7zoom in https://github.com/theovilardo/PixelPlayer/pull/855\r\n* Optim/phase 3 by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/871\r\n* Fix pause playback when headphones are disconnected by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/852\r\n* Optim/player view model migration phase 7 by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/887\r\n* Impl/beta 5.3 new scan system by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/908\r\n* Fix/unified player sheet lagging recomposition fix by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/921\r\n* Impl/lyrics sheet redesign by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/935\r\n* Impl/genre screen redesign by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/942\r\n* Integrate artist image fetching and refine UI component styling by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/946\r\n* Impl/expressive scrollbar by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/951\r\n* Impl/genre features by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/968\r\n* Little fixes everywhere by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/975\r\n* Enhance Google Cast integration, media server reliability, and player… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/976\r\n* Impl/multi selection lists by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/979\r\n* Little fixes everywhere 2 by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/987\r\n* Impl/new color engine by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/993\r\n* Add data transfer tools, lyrics improvements, and navigation UX updates by @lostf1sh in https://github.com/theovilardo/PixelPlayer/pull/992\r\n* Refine player seek bar, equalizer controls, and duration reconciliation by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/994\r\n* Little fixes everywhere 3 by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/999\r\n* Implement Recently Played system and expressive UI refinements by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1003\r\n* Refine full player expansion logic and enhance placeholder customization by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1008\r\n* Optim/unified player sheet new by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1010\r\n* Optim/unified player sheet arch redesign by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1013\r\n* fix: Prevent crash when no CastContext shared instance found by @LarveyOfficial in https://github.com/theovilardo/PixelPlayer/pull/1015\r\n* Optim/unified player sheet arch redesign by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1022\r\n* Optim/general optimizations by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1028\r\n* feat: enhance player UI, library loading states, and performance conf… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1030\r\n* Fix/queue issues by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1033\r\n* Fix/shuffle queue anchored algorithm by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1036\r\n* Optim/optimize resource consumption by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1037\r\n* Little fixes everywhere 5 by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1038\r\n* Implement a modernized, modular backup and restore system (v3) using … by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1039\r\n* perf: optimize playback state updates and recomposition frequency by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1044\r\n* Fix/release r8 build fix by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1053\r\n* Fix/ups view quality by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1065\r\n* feat(equalizer): stabilize audio effects and improve state persistence by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1073\r\n* feat: implement \"start at zero\" shuffle and refine playback logic by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1075\r\n* Added Haptics to Reorder Library Tabs sheet and to all the toggles in… by @Ayaanh001 in https://github.com/theovilardo/PixelPlayer/pull/1041\r\n* Feature/telegram cloud sync by @Dv1101 in https://github.com/theovilardo/PixelPlayer/pull/1076\r\n* Added BackHandler support to SettingsCategoryScreen by @lostf1sh in https://github.com/theovilardo/PixelPlayer/pull/1083\r\n* Offline Connectivity Check, Misc DB Bug Fixes, Upstream Master Changes by @Dv1101 in https://github.com/theovilardo/PixelPlayer/pull/1091\r\n* feat(netease): stabilize cloud sync, rebuild restore, and pre-push test regressions by @lostf1sh in https://github.com/theovilardo/PixelPlayer/pull/1104\r\n* Test/telegram streaming integration by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1107\r\n* Impl/gdrive streaming by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1115\r\n* Impl/redesign artist detail screen by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1117\r\n* Fix/collapsible top bar colors by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1124\r\n* Feature: Improved Lyrics Animation (Experimental) by @Dv1101 in https://github.com/theovilardo/PixelPlayer/pull/1126\r\n* feat: overhaul Telegram dashboard and Device Capabilities UI with exp… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1129\r\n* Impl/artist screen improvements by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1135\r\n* feat: implement JAudioTagger fallback for improved metadata extraction by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1141\r\n* Impl/quick settings tiles by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1145\r\n* feat(telegram): refine dashboard empty state and FAB visibility by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1146\r\n* Changed the format from minutes to hh:mm:ss by @Ayaanh001 in https://github.com/theovilardo/PixelPlayer/pull/1150\r\n* feat: implement customizable collage patterns for the Home screen by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1154\r\n* feat(Telegram): Improve channel search UX and state management by @Ayaanh001 in https://github.com/theovilardo/PixelPlayer/pull/1153\r\n* fix: Restore search query on back navigation and show artist images in search results by @Ayaanh001 in https://github.com/theovilardo/PixelPlayer/pull/1157\r\n* Impl/queue sheet dismiss gestures imprv by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1158\r\n* feat: centralize player sheet back handling and implement predictive … by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1159\r\n* refactor: replace `navController.navigate` with `navigateSafely` acro… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1160\r\n* feat: Introduce new widget styles with dynamic theming by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1155\r\n* fix: refine UI components and slider behavior by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1161\r\n* perf: improve artwork handling and adjust crossfade defaults by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1163\r\n* Impl/account management by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1169\r\n* refactor(ui): improve `ExpressiveScrollBar` indicator shape and anima… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1173\r\n* feat: implement remote-controlled Play Store announcement dialog by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1176\r\n* feat(Telegram): Redesigned phone auth UI with smart country code input by @Ayaanh001 in https://github.com/theovilardo/PixelPlayer/pull/1177\r\n* Optim/stablestate monolitic fix by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1180\r\n* feat: Sync Netease Cloud playlists to app playlists system by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1182\r\n* Telegram login screen merged with Theo's new changes by @Ayaanh001 in https://github.com/theovilardo/PixelPlayer/pull/1181\r\n* fix: Correct song ID format in Netease playlist sync by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1183\r\n* refactor: replace blocking I/O with cached preference in `MusicService` by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1184\r\n* Batch playlist selection, NetEase sync de-dup, and source tagging by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1186\r\n* perf: migration to lifecycle-aware state collection in Compose by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1192\r\n* perf: optimize `LibraryScreen` state management and recompositions by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1193\r\n* Fix: Resolve ForegroundServiceStartNotAllowedException in MusicService by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1198\r\n* updated toggle design and row icons position in surface by @Ayaanh001 in https://github.com/theovilardo/PixelPlayer/pull/1196\r\n* Add discrete steps to crossfade slider by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1199\r\n* feat: optimize folder and genre loading performance by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1201\r\n* fix: resolve state synchronization in `ReorderTabsSheet` by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1202\r\n* feat: unify playlist cover rendering and improve search results by @Ayaanh001 in https://github.com/theovilardo/PixelPlayer/pull/1204\r\n* Quick wins 1 by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1208\r\n* perf: optimize player sheet by reducing recompositions during gestures by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1212\r\n* fix: improve genre deduplication and unknown genre handling by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1214\r\n* feat: enhance NetEase and Telegram login with robust error handling a… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1218\r\n* Impl/album multi selection features by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1220\r\n* feat: implement Android Auto support via Media3 MediaLibraryService by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1223\r\n* Refactor: Ensure valid song ID for metadata editing by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1224\r\n* fix: implement pagination in `onGetSearchResult` and update error han… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1225\r\n* fix: synchronize scroll-to-top behavior with sort order updates in Li… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1228\r\n* ui: update favorite button to outline for non-favorite song by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1229\r\n* perf: optimize artist list loading performance by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1213\r\n* perf: eliminate blank-screen flash on startup & defer TDLib native library load off main thread by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1237\r\n* feat: smooth orientation transition animation + MusicService widget update performance by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1236\r\n* feat(Telegram): implement app playlist management for Telegram channels by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1231\r\n* perf: eliminate blocking coroutine anti-patterns and reduce CPU overhead by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1238\r\n* perf: reduce APK size with ABI splits, downloadable fonts, and SDK cleanup by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1239\r\n* perf: Optimize bottom navigation bar responsiveness and transition speed by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1244\r\n* perf: optimize detail screens (Genre, Album, Artist) performance by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1247\r\n* perf: optimize main thread performance for library and queue updates by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1250\r\n* Impl/wearos support by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1252\r\n* Debug/workflow by @Sincere-Bhattarai in https://github.com/theovilardo/PixelPlayer/pull/1254\r\n* Impl/cast bottom sheet redesign by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1257\r\n* Fix/ai playlist generation fix by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1258\r\n* feat: enhance audio compatibility and URI handling in player engine by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1259\r\n* ui: adjust header height and title padding on Equalizer screen by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1260\r\n* Fix/watch transfer logic by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1283\r\n* fix: improve audio pipeline for surround formats and noisy handling by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1284\r\n* feat: refine wear-to-phone playback logic and browsing limits by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1285\r\n* feat: refactor lyrics storage and optimize song metadata management by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1286\r\n* Fix/bottom sheet overscroll temp by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1290\r\n* feat: complete optimization master refactors + migration hardening by @lostf1sh in https://github.com/theovilardo/PixelPlayer/pull/1289\r\n* ui: standardize favorite button styling by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1292\r\n* feat: add retry logic and robust error handling for widget artwork lo… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1293\r\n* feat(ui): implement back press handling for multi-selection in Library by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1297\r\n* feat: implement Telegram Cloud playlist visibility toggle in Library by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1298\r\n* ui: refine selection index display in selection mode by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1296\r\n* feat: Add QQ Music integration with encrypted API, playlist sync, stream proxy, and code quality improvements by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1300\r\n* Animated Lyrics Optimize, Blur Toggle and Strength Added, Fixed padding issue by @Dv1101 in https://github.com/theovilardo/PixelPlayer/pull/1301\r\n* fix: handle multi-song deletion UI update and parse track numbers correctly by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1303\r\n* Impl/wear bt devices control by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1306\r\n* Fix/files tab navigation by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1309\r\n* fix: resolve Sleep Timer UI bugs (repeat mode flicker, EOT timer, Play Count) by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1311\r\n* Fix: Resolve background overheating and memory leak in MusicService by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1312\r\n* feat(ui): implement smooth height transitions for `CastBottomSheet` p… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1313\r\n* refactor: replace QuickJS with WebView-based signer for QQ Music sign… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1314\r\n* feat: refactor `StreamingProviderSheet` and enhance provider card UI by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1315\r\n* feat: enhance QQ Music login experience with improved WebView control… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1316\r\n* feat: enhance Daily Mix section with song actions and improved UI by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1318\r\n* feat: update DailyMixSection visual style by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1320\r\n* feat: refactor album art retrieval and caching strategy by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1327\r\n* Fix/album artist screen crash by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1328\r\n* feat: implement persistent playback queue restoration by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1329\r\n* feat: refactor Brick Breaker easter egg into a dedicated screen by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1331\r\n* Impl/backup restore improvements by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1332\r\n* feat: implement pagination and deep track synchronization for Netease… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1334\r\n* fix: improve Bluetooth state handling and permission safety in Connec… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1337\r\n* Fix/listening stats update by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1339\r\n* feat: implement pull-to-refresh and improve refresh state handling in… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1340\r\n* Fix/library sorting scroll bug by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1341\r\n* Add intent filters for music widgets by @ClGratton in https://github.com/theovilardo/PixelPlayer/pull/1346\r\n* fix: fix SecurityException by adding Bluetooth permission checks in ConnectivityStateHolder by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1345\r\n* feat: Add Navidrome/Subsonic integration with Unified Library support by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1343\r\n* fix: library shuffle button behavior by @adlifarizi in https://github.com/theovilardo/PixelPlayer/pull/1319\r\n* style: update Netease icon on Accounts screen to match Cloud Streaming sheet by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1344\r\n* fix: reset refreshing state in StatsViewModel by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1347\r\n* Update CHANGELOG.md by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1348\r\n* feat: refactor grayscale color scheme generation for neutral artwork by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1349\r\n* Fix widget discoverability: add DEFAULT category to MAIN intent filter by @ClGratton in https://github.com/theovilardo/PixelPlayer/pull/1350\r\n* Optim/final beta 6 optimization by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1351\r\n* Polish cloud streaming theming and modernize Subsonic UI by @lostf1sh in https://github.com/theovilardo/PixelPlayer/pull/1354\r\n* feat: refactor predictive back handling and update dependencies by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1355\r\n* Fix Navidrome multi-playlist sync overwrite for non-numeric playlist IDs by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1356\r\n* UI: optimize LibraryNavigationPill width and text overflow by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1359\r\n* UI: optimize startup flicker and transition animations by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1358\r\n* Fix: correct artist online/offline identification by @serein-213 in https://github.com/theovilardo/PixelPlayer/pull/1357\r\n* chore: fix Navidrome `playlist_id` type affinity and migrate database… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1361\r\n* perf: optimize UI performance with batch color animations and layout-… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1362\r\n* Optim/smooth scrollbar mod by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1363\r\n* feat: refine playback position synchronization and restoration logic by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1365\r\n* feat: refine playback position restoration and improve UI layout RTL … by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1366\r\n* feat: refactor player sheet theme resolution and enhance SmartImage p… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1367\r\n* fix: improve cold start playback snapshot restoration in `PlaybackSta… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1368\r\n* feat: optimize library song list rendering and state management by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1369\r\n* feat: enhance backup validation and restore robustness for engagement… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1370\r\n* Fix/grdient gap issue by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1372\r\n* Add headset reconnect auto-resume setting and playback behavior by @lostf1sh in https://github.com/theovilardo/PixelPlayer/pull/1374\r\n* feat: allow customizable album art size in `EnhancedSongListItem` by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1375\r\n* Add animated visibility to page indicator in `PlayerScreen` by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1377\r\n* Improve backup compatibility and field naming stability for database … by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1378\r\n* Update default album art size and clean up imports by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1379\r\n* Add haptic feedback to seeker and migrate playback icons to Material … by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1382\r\n* Implement various performance optimizations for the player UI, backgr… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1384\r\n* Improve backup/restore progress dialog UI and visibility by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1385\r\n* Update README.md by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1386\r\n* Hide creation mode selector in playlist edit flow by @lostf1sh in https://github.com/theovilardo/PixelPlayer/pull/1391\r\n* Fix/setup permission flow by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1393\r\n* Implement optimistic UI for full player carousel transitions by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1396\r\n* Add support for granting artwork URI permissions to external media co… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1398\r\n* Ensure critical preferences are preserved during cleanup and backup r… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1399\r\n* Add trusted media item resolution for secure artwork URI granting by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1400\r\n* Improve scrollbar accuracy in `ExpressiveScrollBar` using axis observ… by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1401\r\n* Fix/recently played tabs design by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1402\r\n* Implement lyric sync offset for seek-to-line functionality by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1403\r\n* Defer `recentlyPlayedSongs` updates on `HomeScreen` until off-screen by @theovilardo in https://github.com/theovilardo/PixelPlayer/pull/1404\r\n\r\n## New Contributors\r\n* @ThatOneCalculator made their first contribution in https://github.com/theovilardo/PixelPlayer/pull/807\r\n* @ryan7zoom made their first contribution in https://github.com/theovilardo/PixelPlayer/pull/855\r\n* @LarveyOfficial made their first contribution in https://github.com/theovilardo/PixelPlayer/pull/1015\r\n* @Dv1101 made their first contribution in https://github.com/theovilardo/PixelPlayer/pull/1076\r\n* @Sincere-Bhattarai made their first contribution in https://github.com/theovilardo/PixelPlayer/pull/1254\r\n* @ClGratton made their first contribution in https://github.com/theovilardo/PixelPlayer/pull/1346\r\n\r\n**Full Changelog**: https://github.com/theovilardo/PixelPlayer/compare/0.5.0-beta...0.6.0-beta",
+            "overrideSource": null,
+            "allowIdChange": false
+        },
+        {
+            "id": "com.quantumsoul.esde_android",
+            "url": "https://github.com/BinaryQuantumSoul/esde_android_apps",
+            "author": "BinaryQuantumSoul",
+            "name": "ES-DE Android Apps",
+            "installedVersion": null,
+            "latestVersion": "v1.3.3",
+            "apkUrls": "[[\"esde_android_apps_v1.3.3.apk\",\"https://api.github.com/repos/BinaryQuantumSoul/esde_android_apps/releases/assets/227675985\"]]",
+            "otherAssetUrls": "[[\"esde_android_apps_v1.3.3.apk.sha1\",\"https://github.com/BinaryQuantumSoul/esde_android_apps/releases/download/v1.3.3/esde_android_apps_v1.3.3.apk.sha1\"],[\"v1.3.3.tar.gz\",\"https://api.github.com/repos/BinaryQuantumSoul/esde_android_apps/tarball/v1.3.3\"],[\"v1.3.3.zip\",\"https://api.github.com/repos/BinaryQuantumSoul/esde_android_apps/zipball/v1.3.3\"]]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"ES-DE system integration for Android\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"github-creds\":\"\",\"GHReqPrefix\":\"\"}",
+            "lastUpdateCheck": 1778622959405021,
+            "pinned": false,
+            "categories": [
+                "Utilities"
+            ],
+            "releaseDate": 1739134124000000,
+            "changeLog": "- Fixes permission errors\r\n- Properly set app version\r\n- New option to show system apps",
+            "overrideSource": "GitHub",
+            "allowIdChange": false
+        },
+        {
+            "id": "com.nendo.argosy",
+            "url": "https://github.com/rommapp/argosy-launcher",
+            "author": "rommapp",
+            "name": "Argosy Launcher",
+            "installedVersion": "0.20.0",
+            "latestVersion": "v1.4.0",
+            "apkUrls": "[[\"argosy-v1.4.0-arm32.apk\",\"https://api.github.com/repos/rommapp/argosy-launcher/releases/assets/415059800\"],[\"argosy-v1.4.0-arm64.apk\",\"https://api.github.com/repos/rommapp/argosy-launcher/releases/assets/415059801\"],[\"argosy-v1.4.0.apk\",\"https://api.github.com/repos/rommapp/argosy-launcher/releases/assets/415059799\"]]",
+            "otherAssetUrls": "[[\"v1.4.0.tar.gz\",\"https://api.github.com/repos/rommapp/argosy-launcher/tarball/v1.4.0\"],[\"v1.4.0.zip\",\"https://api.github.com/repos/rommapp/argosy-launcher/zipball/v1.4.0\"]]",
+            "preferredApkIndex": 2,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+            "lastUpdateCheck": 1778613323931757,
+            "pinned": false,
+            "categories": [
+                "Launchers"
+            ],
+            "releaseDate": 1778223716000000,
+            "changeLog": "## New Features\n- Saves migrate between emulators on launch.\n- PS2 folder memory card picker: when multiple folder cards exist, pick which one Argosy syncs from. Settings exposes the selection; ambiguous setups prompt at launch.\n\n## Improvements\n- PSP save handling: per-game folders correctly identified by serial prefix (handles installed-game-data folders properly).\n- Built-in cores keep playing offline when the core file is already on disk.\n- Press Left at the leftmost UI boundary to open the nav drawer.\n- Hardcore-trailer mismatch no longer reported as \"Download failed\".\n\n## Bug Fixes\n- Save sync refuses to wipe a folder memcard parent when the title-id scope finds no matches (prevents data loss across other games).\n- Built-in PPSSPP foreground service uses the real package name for activity monitoring.\n",
+            "overrideSource": "GitHub",
+            "allowIdChange": false
+        }
+    ]
+}
