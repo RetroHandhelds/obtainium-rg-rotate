@@ -1,1 +1,1 @@
-# obtainium-rg-rotate
+# Obtainium for the Anbernic RG Rotate
